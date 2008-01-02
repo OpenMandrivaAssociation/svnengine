@@ -10,6 +10,7 @@ BuildArch:	noarch
 Requires:	python-pysvn >= 1.5.1
 Requires:	python-%{name} >= %{version}
 BuildRequires:	python-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 As the name suggests, Svnengine purpose is to make integration between SVN and
