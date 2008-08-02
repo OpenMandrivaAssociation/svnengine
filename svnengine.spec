@@ -1,7 +1,7 @@
 Summary:	Subversion helper for CFengine
 Name:		svnengine
 Version:	0.4
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		Development/Python
 URL:		http://pulseaudio.revolutionlinux.com/Svnengine
