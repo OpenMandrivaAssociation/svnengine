@@ -53,9 +53,6 @@ filesystem and gather changes by using the collect feature, and then commit.
 Bet you will love it! 
 
 %prep
-
-
-
 %setup -q
 
 %build
@@ -74,8 +71,6 @@ rm -rf %{buildroot}
 %doc README
 %{_bindir}/%{name}
 
-%files -n python-%{name} -f INSTALLED_FILES
+%files -n python-%{name}
 %defattr(-,root,root)
-%exclude %{_bindir}/%{name}
-
-
+%{py_puresitedir}/*
