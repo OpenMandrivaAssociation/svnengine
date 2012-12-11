@@ -74,3 +74,42 @@ rm -rf %{buildroot}
 %files -n python-%{name}
 %defattr(-,root,root)
 %{py_puresitedir}/*
+
+
+%changelog
+* Wed Nov 17 2010 Funda Wang <fwang@mandriva.org> 0.4-6mdv2011.0
++ Revision: 598175
+- update file list
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 0.4-6mdv2010.0
++ Revision: 445270
+- rebuild
+
+* Fri Jan 02 2009 Funda Wang <fwang@mandriva.org> 0.4-5mdv2009.1
++ Revision: 323374
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tv@mandriva.org> 0.4-4mdv2009.0
++ Revision: 261277
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0.4-3mdv2009.0
++ Revision: 253793
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.4-1mdv2008.1
++ Revision: 140863
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Mar 01 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4-1mdv2007.0
++ Revision: 130398
+- fix deps
+- Import svnengine
+
+* Thu Mar 01 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4-1mdv2007.1
+- initial Mandriva package
+
