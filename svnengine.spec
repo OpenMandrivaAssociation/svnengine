@@ -4,7 +4,7 @@ Version:	0.4
 Release:	7
 License:	GPL
 Group:		Development/Python
-URL:		http://pulseaudio.revolutionlinux.com/Svnengine
+URL:		https://pulseaudio.revolutionlinux.com/Svnengine
 Source0:	%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 Requires:	python-pysvn >= 1.5.1
